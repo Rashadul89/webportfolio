@@ -79,21 +79,128 @@ nav ul li a {
     text-align: left;
     font-weight: bold;
 }
-.banner{
+
+.banner {
     display: flex;
     justify-content: space-between;
     margin: 0 38px 0 230px;
-     
+
 }
-.banner-profilepic{ 
-width: 584px; 
+
+.banner-profilepic {
+    width: 584px;
 }
-.banner-content{
+
+.banner-content {
     max-width: 585px;
 }
+
 .header {
-    background-image: url(../images/developer.png), url(../images/header_bg.png);  
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: top left, bottom right ; 
+    background-position: top left, bottom right;
     margin: 30px 0 25px 0;
 }
+
+.head-contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.aboutme-cointainer {
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+}
+
+.aboutme-subcontainer {
+    width: 827px;
+    height: 288px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+}
+
+.about-me {
+    background-color: rgb(255, 248, 243);
+    padding: 130px 155px;
+    margin: 130px auto;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.para-title {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.item-title {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.item-description {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+ 
+.skill-cart {
+    display: flex;
+    gap: 15px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px; 
+   
+}
+
+.vanilla { 
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    box-shadow: 0px 6px 10px 0px rgb(117, 117, 117);
+}
+.react{
+    box-shadow: 0px 6px 10px 0px rgb(117, 117, 117);
+    padding: 10px;
+}
+.node{ 
+    box-shadow: 0px 6px 10px 0px rgb(117, 117, 117);
+    padding: 10px;
+}
+.mongo{ 
+    box-shadow: 0px 6px 10px 0px rgb(117, 117, 117);
+    padding: 10px;
+}
+ 
