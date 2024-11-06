@@ -32,7 +32,10 @@ nav {
     border: none;
     cursor: pointer;
 }
-
+.downlaodcv{ 
+    display: flex; 
+    justify-content: center;
+}
 .nav-title {
     font-weight: 800;
     font-size: 45px;
@@ -182,25 +185,17 @@ main {
     display: flex;
     gap: 15px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-    border-radius: 5px; 
+    
    
 }
 
-.vanilla { 
+.vanilla, .mongo, .node, .react { 
     background: rgb(255, 255, 255);
     padding: 10px;
     box-shadow: 0px 6px 10px 0px rgb(117, 117, 117);
-}
-.react{
-    box-shadow: 0px 6px 10px 0px rgb(117, 117, 117);
-    padding: 10px;
-}
-.node{ 
-    box-shadow: 0px 6px 10px 0px rgb(117, 117, 117);
-    padding: 10px;
-}
-.mongo{ 
-    box-shadow: 0px 6px 10px 0px rgb(117, 117, 117);
-    padding: 10px;
-}
- 
+    border-radius: 5px;
+    }
+    .eduexeper{
+        display: flex;
+        gap: 15px;
+    }
